@@ -1,1 +1,1 @@
-# Repositório criado para o treino de Typescript.
+# Repositório criado para o treino lógica e Typescript.
