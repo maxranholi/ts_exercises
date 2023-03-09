@@ -1,23 +1,8 @@
-var Colors;
-(function (Colors) {
-    Colors["AKIRA"] = "white";
-    Colors["MORGANA"] = "black";
-    Colors["BENTO"] = "black and white";
-})(Colors || (Colors = {}));
-const name1 = {
-    name: "Akira",
-    age: 3,
-    favouriteColor: Colors.AKIRA
-};
-const name2 = {
-    name: "Morgana",
-    age: 3,
-    favouriteColor: Colors.MORGANA
-};
-const name3 = {
-    name: "Bento",
-    age: 3,
-    favouriteColor: Colors.BENTO
-};
-console.table([name1, name2, name3]);
+const list = [
+    { nome: "João", idade: 23, dataDaConsulta: "01/10/2021" },
+    { nome: "Pedro", idade: 31, dataDaConsulta: "02/07/2021" },
+    { nome: "Paula", idade: 26, dataDaConsulta: "03/11/2021" },
+    { nome: "Márcia", idade: 45, dataDaConsulta: "04/05/2021" }
+];
+console.table(list);
 //# sourceMappingURL=index.js.map

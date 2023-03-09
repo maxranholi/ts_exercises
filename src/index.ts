@@ -154,4 +154,51 @@
 
 
 
-// ==========================================================  Aprofundamento - Exercício 2
+// ==========================================================  Aprofundamento - Exercício 3
+// type user = {autor: string, texto: string}
+
+// const posts: user[] = [
+//     {
+//       autor: "Alvo Dumbledore",
+//       texto: "Não vale a pena viver sonhando e se esquecer de viver"
+//     },
+//     {
+//       autor: "Severo Snape",
+//       texto: "Menos 10 pontos para Grifinória!"
+//     },
+//     {
+//       autor: "Hermione Granger",
+//       texto: "É levi-ô-sa, não levio-sá!"
+//     },
+//     {
+//       autor: "Dobby",
+//       texto: "Dobby é um elfo livre!"
+//     },
+//     {
+//       autor: "Lord Voldemort",
+//       texto: "Avada Kedavra!"
+//     }
+//   ]
+
+//   const searchByAuthor = (posts: user[], informedAuthor: string) => {
+//     return posts.filter((post) => {
+//            return post.autor === informedAuthor
+//         }
+//     )
+//   }
+//   console.log(searchByAuthor(posts, "Dobby"))
+
+
+
+
+// ==========================================================  Aprofundamento - Exercício 5
+type pacients = {nome: string, idade: number, dataDaConsulta: string}
+
+const list: pacients[] = [
+    { nome: "João", idade: 23, dataDaConsulta: "01/10/2021" },
+    { nome: "Pedro", idade: 31, dataDaConsulta: "02/07/2021" },
+    { nome: "Paula", idade: 26, dataDaConsulta: "03/11/2021" },
+    { nome: "Márcia", idade: 45, dataDaConsulta: "04/05/2021" }
+  ]
+
+  console.table(list)
